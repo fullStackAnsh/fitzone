@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  /* Original colors from the design */
+  --color-red-500: #ef4444;
+  --color-orange-500: #f97316;
+  --color-green-500: #22c55e;
+  --color-emerald-500: #10b981;
+  --color-pink-500: #ec4899;
+  --color-yellow-500: #eab308;
+
+  /* Text colors */
+  --text-white: #ffffff;
+  --text-gray-300: #d1d5db;
+  --text-gray-400: #9ca3af;
+  --text-gray-500: #6b7280;
+
+  /* Background colors */
+  --bg-black: #000000;
+  --bg-zinc-900: #18181b;
+  --bg-zinc-950: #09090b;
+  --bg-zinc-800: #27272a;
+}
+
+/* Add this to fix horizontal overflow issues */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--text-white);
+  background: var(--bg-black);
+  scroll-behavior: smooth;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-red-500);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-orange-500);
+}
+
+/* Custom gradient text utility */
+.text-gradient-red-orange {
+  background: linear-gradient(to right, var(--color-red-500), var(--color-orange-500));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-gradient-red-orange {
+  background: linear-gradient(to right, var(--color-red-500), var(--color-orange-500));
+}
+
+.bg-gradient-orange-yellow {
+  background: linear-gradient(to right, var(--color-orange-500), var(--color-yellow-500));
+}
+
+.bg-gradient-green-emerald {
+  background: linear-gradient(to right, var(--color-green-500), var(--color-emerald-500));
+}
+
+.bg-gradient-red-pink {
+  background: linear-gradient(to right, var(--color-red-500), var(--color-pink-500));
+}
