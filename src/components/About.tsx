@@ -59,7 +59,7 @@ const About = () => {
               motivating environment to help you achieve your fitness goals.
             </p>
             <p className="text-gray-300">
-              Whether you're a beginner or a fitness enthusiast, our certified trainers will create personalized workout
+              Whether you&apos;re a beginner or a fitness enthusiast, our certified trainers will create personalized workout
               plans tailored to your specific needs and goals.
             </p>
 

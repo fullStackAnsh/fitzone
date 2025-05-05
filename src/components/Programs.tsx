@@ -64,7 +64,7 @@ const Programs = () => {
             <span className="bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">Programs</span>
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Discover our range of specialized fitness programs designed to help you achieve your goals, whether you're
+            Discover our range of specialized fitness programs designed to help you achieve your goals, whether you&apos;re
             looking to build muscle, lose weight, or improve overall fitness.
           </p>
           <div className="w-20 h-1 bg-gradient-to-r from-red-500 to-orange-500 mx-auto mt-4"></div>

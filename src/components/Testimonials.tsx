@@ -9,7 +9,7 @@ const testimonials = [
     name: "Jennifer K.",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1470&auto=format&fit=crop",
     rating: 5,
-    text: "FitZone completely transformed my fitness journey. The trainers are knowledgeable and supportive, and the community is so motivating. I've lost 30 pounds and gained so much confidence!",
+    text: "FitZone completely transformed my fitness journey. The trainers are knowledgeable and supportive, and the community is so motivating. I&apos;ve lost 30 pounds and gained so much confidence!",
   },
   {
     name: "David M.",
@@ -21,7 +21,7 @@ const testimonials = [
     name: "Sophia R.",
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1522&auto=format&fit=crop",
     rating: 4,
-    text: "The group classes at FitZone are incredible! High energy, great instructors, and a fun atmosphere. I've made friends and gotten in the best shape of my life. Highly recommend their HIIT classes!",
+    text: "The group classes at FitZone are incredible! High energy, great instructors, and a fun atmosphere. I&apos;ve made friends and gotten in the best shape of my life. Highly recommend their HIIT classes!",
   },
 ]
 
@@ -58,7 +58,7 @@ const Testimonials = () => {
             </span>
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Don't just take our word for it. Hear what our members have to say about their experience at FitZone Gym.
+            Don&apos;t just take our word for it. Hear what our members have to say about their experience at FitZone Gym.
           </p>
           <div className="w-20 h-1 bg-gradient-to-r from-red-500 to-orange-500 mx-auto mt-4"></div>
         </motion.div>
